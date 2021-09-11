@@ -1,0 +1,112 @@
+body{
+    color: white;
+    font-family: serif;
+}
+
+.header{
+    background-color: rgb(255, 197, 6);
+    height: 90px;
+}
+.header-logo{
+    float: left;
+    font-size: 45px;
+    padding: 10px 10px;
+    color: rgb(161, 86, 0);
+}
+.header-list li{
+    list-style: none;
+    float: right;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding:20px 10px;
+    margin-top: 40px;
+}
+
+
+
+
+.main{
+    background-color: rgb(0, 0, 0);
+    padding: 20px 40px;
+}
+
+.copy-container h1{
+    color:brown;
+    font-size:40px;
+    font-family: serif;
+}
+.copy-container h2{
+    font-size:20px ;
+    padding-bottom: 15px;
+}
+.copy-container span{
+    color: rgb(255, 174, 0);
+}
+
+
+.contents{
+    height: 400px;
+}
+
+.section-title{
+    border-bottom: 1px solid white;
+    /*↑ようこそについてる枠の、下部分だけを表示してる状態*/
+    padding-bottom: 10px;
+    /*↑枠の内側を指すので枠との間が広がる*/
+    margin-bottom:40px;
+    /*↑枠の外側が広がる*/
+}
+
+.contents-item{
+    float: left;
+    margin-right: 7px;
+}
+
+
+
+.contents p{
+    font-size: 20px;
+    padding-left:70px;
+}
+
+
+
+
+
+.contact-form{
+    padding-top:30px;
+}
+
+input,textarea{
+    width: 400px;
+    margin-top: 1px;
+    margin-bottom: 15px;
+    padding: 5px;
+    font-size: 15px;
+    border: 1px solid black;
+}
+
+
+
+
+
+.footer{
+    background-color:rgb(255, 197, 6) ;
+    color: ghostwhite;
+    height: 90px;
+    padding: 10px;
+}
+.footer-logo{
+    float: left;
+    font-size: 25px;
+}
+.footer-list{
+    float: right;
+    /*左ならえはここ！*/
+}
+.footer-list li{
+    /*ここに左ならえを持ってくると全部横並びになっちゃうから注意！*/
+    list-style: none;
+    font-size: 13px;
+    padding-bottom: 4px;
+}
